@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py
+    startCommand: streamlit run main.py
     envVars:
       - key: GEMINI_API_KEY
         sync: false
